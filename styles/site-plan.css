@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #846075  ;
   --secondary-color: #14342B ;
   --accent1-color: #A3BCF9;
-  --accent2-color: #FFFDED;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Monaco, Andale Mono;
@@ -100,7 +100,7 @@ p.colored {
 }
 
 nav {
-  background-color: var(--nav-background-color);
+  background-color: #846075;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -118,11 +118,11 @@ nav a {
 
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: white;
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: #14342B;
+  background-color: #A3BCF9;
 }
 
 .sitemap {
