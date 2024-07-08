@@ -1,0 +1,92 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    align-items: center;
+    display: flex;
+    background-color: #846075;
+    color: white;
+    text-decoration: none;
+    font-family: Monaco, Andale Mono;
+    font-size: 1.5em;
+    padding: 20px 20px;
+    width: 100%;
+}
+nav a:hover {
+    background-color: #A3BCF9;
+    color: #14342B;
+}
+.logo {
+    width: 90px;
+}
+footer {
+    background-color: #846075;
+    color: white;
+    display: flex;
+    padding: 20px 20px;
+    font-size: 25px;
+    font-family: Monaco, Andale Mono;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactme {
+    text-align: center;
+
+}
+.email {
+    text-align: right;
+    color: #14342B;
+}
+.socialmedia {
+    text-align: right;
+}
+.instagram {
+    width: 80px;
+}
+.twitter {
+    width: 80px;
+}
+#intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #A3BCF9;
+    padding: 25px;
+    color:#14342B;
+}
+.meimg {
+    width: 300px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.mesnow {
+    width: 300px;
+    grid-column: 6/7;
+    grid-row: 4/6;
+}
+.me {
+    font-family: Tahoma, Gill Sans;
+    text-align: center;
+    grid-column: 2/7;
+    font-size: 25px;
+    padding: 20px;
+}
+.artkind {
+    font-family: Tahoma, Gill Sans;
+    text-align: left;
+    font-size: 25px;
+    grid-column: 1/6;
+    grid-row: 4/6;
+    padding: 20px;
+    padding-right: 30px;
+}
+.aboutme {
+    font-family: Monaco, Andale Mono;
+    text-align: center;
+    grid-column: 3/5;
+    font-size: 40px;
+}
