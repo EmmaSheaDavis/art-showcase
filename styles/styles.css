@@ -90,3 +90,132 @@ footer {
     grid-column: 3/5;
     font-size: 40px;
 }
+#commissions {
+    background-color: #A3BCF9;
+    color: #14342B;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 25px;
+}
+h2 {
+    font-family: Monaco, Andale Mono;
+    font-size: 35px;
+    grid-column: 2/5;
+    text-align: right;
+}
+.sketchhalf {
+    width: 250px;
+    padding: 15px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.sketchfull {
+    width: 250px;
+    padding: 15px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.colorhalf {
+    width: 250px;
+    padding: 15px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.colorfull {
+    width: 250px;
+    padding: 15px;
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+.fullhalf {
+    width: 250px;
+    padding: 15px;
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+.fullfull {
+    width: 250px;
+    padding: 15px;
+    grid-column: 5/6;
+    grid-row: 4/5;
+}
+.sketch {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 25px;
+    font-family: Monaco, Andale Mono;
+    text-align: center;
+}
+.basecolor {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    font-size: 25px;
+    font-family: Monaco, Andale Mono;
+    text-align: center;
+}
+.full {
+    grid-column: 5/6;
+    grid-row: 2/3;
+    font-size: 25px;
+    font-family: Monaco, Andale Mono;
+    text-align: center;
+
+}
+.sketchhalfprice {
+    font-family: Tahoma, Gill Sans;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 20px;
+    text-align: left;
+}
+.sketchfullprice {
+    font-family: Tahoma, Gill Sans;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 20px;
+    text-align: left;
+}
+.colorhalfprice {
+    font-family: Tahoma, Gill Sans;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    font-size: 20px;
+    text-align: left;
+}
+.colorfullprice {
+    font-family: Tahoma, Gill Sans;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    font-size: 20px;
+    text-align: left;
+
+}
+.fullhalfprice {
+    font-family: Tahoma, Gill Sans;
+    grid-column: 6/7;
+    grid-row: 3/4;
+    font-size: 20px;
+    text-align: left;
+}
+.fullfullprice {
+    font-family: Tahoma, Gill Sans;
+    grid-column: 6/7;
+    grid-row: 4/5;
+    font-size: 20px;
+    text-align: left;
+}
+.rules {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    font-size: 25px;
+    font-family: Monaco, Andale Mono;
+    text-align: left;
+}
+.myrules {
+    grid-column: 1/7;
+    grid-row: 6/7;
+    font-size: 18px;
+    font-family: Tahoma, Gill Sans;
+    text-align: left;
+}
