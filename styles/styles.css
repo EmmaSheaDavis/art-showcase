@@ -219,3 +219,51 @@ h2 {
     font-family: Tahoma, Gill Sans;
     text-align: left;
 }
+#me_art {
+    background-color: #A3BCF9;
+    color: #14342B;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 25px;
+}
+.meandart {
+    font-size: 35px;
+    font-family: Monaco, Andale Mono;
+    grid-column: 3/4;
+    text-align: center;
+}
+.oldart {
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-left: 29px;
+}
+.recentart{
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 4/5;
+    padding-left: 25px;
+}
+.mystory {
+    font-size: 27px;
+    font-family: Tahoma, Gill Sans;
+    grid-row: 2/5;
+    grid-column: 2/5;
+    text-align: center;
+}
+.firstdigital {
+    font-size: 15px;
+    font-family: Tahoma, Gill Sans;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 5px;
+}
+.mostrecentart {
+    font-size: 15px;
+    font-family: Tahoma, Gill Sans;
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
